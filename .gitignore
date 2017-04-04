@@ -3,3 +3,5 @@
 ################################################################################
 
 /ServicesPortal/obj/Debug
+/ServicesPortal/bin
+/ServicesPortal.sln.DotSettings.user

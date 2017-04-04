@@ -7,9 +7,9 @@ using System.Web;
 namespace ServicesPortal.Models
 {
     [MetadataType(typeof(ServiceMetadata))]
-    public class ServiceModel
+    public class Service
     {
-        public ServiceModel()
+        public Service()
         {
             this.Comments = new HashSet<Comment>();
         }

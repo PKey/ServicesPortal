@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using ServicesPortal.Models;
 
-namespace ServicesPortal.Repositories
+namespace ServicesPortal.Repositories.Interfaces
 {
     public interface IServiceProviderRepository : IRepository<ServiceProvider>
     {

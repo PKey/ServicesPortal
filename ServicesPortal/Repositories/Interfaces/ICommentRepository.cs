@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ServicesPortal.Models;
+﻿using ServicesPortal.Models;
 
-namespace ServicesPortal.Repositories
+namespace ServicesPortal.Repositories.Interfaces
 {
     public interface ICommentRepository : IRepository<Comment>
     {

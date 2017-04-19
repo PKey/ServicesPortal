@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ServicesPortal.Models;
+﻿using ServicesPortal.Models;
 
-namespace ServicesPortal.Repositories
+namespace ServicesPortal.Repositories.Interfaces
 {
     /// <summary>
     /// Interface for services repository
     /// </summary>
-    /// <seealso cref="ServicesPortal.Repositories.IRepository{ServicesPortal.Models.Service}" />
+    /// <seealso cref="IRepository{T}.Models.Service}" />
     public interface IServiceRepository : IRepository<Service>
     {
         /// <summary>

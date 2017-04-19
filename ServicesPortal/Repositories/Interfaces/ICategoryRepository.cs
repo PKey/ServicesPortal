@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using ServicesPortal.Models;
 
-namespace ServicesPortal.Repositories
+namespace ServicesPortal.Repositories.Interfaces
 {
     /// <summary>
     /// Interface of categories repository
     /// </summary>
-    /// <seealso cref="ServicesPortal.Repositories.IRepository{ServicesPortal.Models.Category}" />
-    public interface ICategoryRepository : IRepository<Category>
+    /// <seealso cref="IRepository{T}.Models.Category}" />
+    public interface ICategoryRepository : IRepository<Category>, IRepository<CommentCategory>
     {
         /// <summary>
         /// Gets all categories.
